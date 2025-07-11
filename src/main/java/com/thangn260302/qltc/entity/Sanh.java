@@ -31,7 +31,7 @@ public class Sanh {
     private BigDecimal donGiaBanToiThieu;
     
     @OneToMany(mappedBy = "sanh")
-    @JsonIgnore // hoặc @JsonBackReference
+    @JsonIgnore
     private List<PhieuDatTiecCuoi> phieuDatTiecCuoiList;
 
 	public Long getMaSanh() {

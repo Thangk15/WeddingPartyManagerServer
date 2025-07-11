@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 public class ThamSo {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // hoặc tự thêm cột id nếu cần
+    @GeneratedValue(strategy = GenerationType.IDENTITY) 
     private Long id;
 
     @Column(name = "KiemTraPhat")

@@ -15,13 +15,11 @@ public class ChiTietMonAn {
     @Column(name = "soLuong")
     private int soLuong;
 
-    // ====== Khóa ngoại tới bảng PhieuDatTiecCuoi ======
     @ManyToOne
     @MapsId("maTiecCuoi")
     @JoinColumn(name = "maTiecCuoi", referencedColumnName = "maTiecCuoi")
     private PhieuDatTiecCuoi tiecCuoi;
 
-    // ====== Khóa ngoại tới bảng MonAn ======
     @ManyToOne
     @MapsId("maMonAn")
     @JoinColumn(name = "maMonAn", referencedColumnName = "maMonAn")

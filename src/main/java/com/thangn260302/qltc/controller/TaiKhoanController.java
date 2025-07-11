@@ -11,7 +11,7 @@ import com.thangn260302.qltc.service.TaiKhoanService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:4200") // Cho Angular gọi
+@CrossOrigin(origins = "http://localhost:4200")
 public class TaiKhoanController {
 
     private final TaiKhoanService service;

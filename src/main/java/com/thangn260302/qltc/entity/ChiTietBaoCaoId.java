@@ -18,7 +18,6 @@ public class ChiTietBaoCaoId implements Serializable {
     @Column(name = "ngay")
     private LocalDate ngay;
 
-    // Getters and Setters
 
     public Long getMaBaoCao() {
         return maBaoCao;

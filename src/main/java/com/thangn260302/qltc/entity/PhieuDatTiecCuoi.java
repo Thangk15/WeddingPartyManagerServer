@@ -66,7 +66,7 @@ public class PhieuDatTiecCuoi {
 
     @ManyToOne
     @JoinColumn(name = "maCa", referencedColumnName = "maCa", nullable = false)
-    @JsonIgnoreProperties("phieuDatTiecCuoiList") // hoặc bất kỳ thuộc tính nào ngược lại
+    @JsonIgnoreProperties("phieuDatTiecCuoiList") 
     private Ca ca;
 
     @ManyToOne

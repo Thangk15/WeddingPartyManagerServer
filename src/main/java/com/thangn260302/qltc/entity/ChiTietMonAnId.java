@@ -13,7 +13,6 @@ public class ChiTietMonAnId implements Serializable {
     @Column(name = "maTiecCuoi")
     private Long maTiecCuoi;
 
-    // Getters, Setters, hashCode, equals
 
     public Long getMaMonAn() {
         return maMonAn;

@@ -7,7 +7,7 @@ public class NhanVienDTO {
     private String loaiNhanVien;
     private String sdt;
     private Long maCongViec;
-    private Long maTiecCuoi; // Giả sử kiểu là String, nếu kiểu khác thì bạn chỉnh lại
+    private Long maTiecCuoi;
 
     public NhanVienDTO(Long maNhanVien, String tenNhanVien, String gioiTinh, 
 		String loaiNhanVien, String sdt, Long maCongViec, Long maTiecCuoi) {

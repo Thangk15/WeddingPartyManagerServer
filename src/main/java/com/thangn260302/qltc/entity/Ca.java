@@ -31,7 +31,7 @@ public class Ca {
 	private LocalTime gioKetThuc;
 	
 	@OneToMany(mappedBy = "ca")
-	@JsonIgnore // hoặc @JsonBackReference
+	@JsonIgnore
 	private List<PhieuDatTiecCuoi> phieuDatTiecCuoiList;
 
 	public Long getId() {

@@ -24,7 +24,7 @@ public class CongViec {
 	private String tenCongViec;
 
 	@OneToMany(mappedBy = "congViec")
-	@JsonIgnore // <- Chặn vòng lặp khi serialize
+	@JsonIgnore
     private List<DichVu> dichVus;
 
 	public Long getMaCongViec() {

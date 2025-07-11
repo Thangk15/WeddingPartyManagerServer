@@ -21,7 +21,6 @@ public class PhanCong {
     
     public PhanCong() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public PhanCong(PhanCongId id, NhanVien nhanVien, PhieuDatTiecCuoi tiecCuoi) {

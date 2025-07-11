@@ -23,7 +23,7 @@ public class TaiKhoan {
 	private String role = "USER";
 	
 	@OneToMany(mappedBy = "taiKhoan")
-	@JsonIgnore // hoặc @JsonBackReference
+	@JsonIgnore
 	private List<PhieuDatTiecCuoi> phieuDatTiecCuoiList;
 
 	public String getUserName() {

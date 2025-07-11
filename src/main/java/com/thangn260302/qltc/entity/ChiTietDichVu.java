@@ -27,7 +27,6 @@ public class ChiTietDichVu {
     @JoinColumn(name = "maDichVu", insertable = false, updatable = false)
     private DichVu dichVu;
 
-    // Getters and Setters
     public ChiTietDichVuId getId() {
         return id;
     }

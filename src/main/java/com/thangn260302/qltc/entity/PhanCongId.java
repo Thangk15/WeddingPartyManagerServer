@@ -17,7 +17,6 @@ public class PhanCongId implements Serializable {
 
     public PhanCongId() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public PhanCongId(Long maNhanVien, Long maTiecCuoi) {
@@ -43,7 +42,6 @@ public class PhanCongId implements Serializable {
         this.maTiecCuoi = maTiecCuoi;
     }
 
-    // equals & hashCode (bắt buộc cho khóa kép)
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -20,7 +20,6 @@ public class ChiTietBaoCao {
     @Column(name = "tiLe")
     private float tiLe;
 
-    // Getters and Setters
 
     public ChiTietBaoCaoId getId() {
         return id;

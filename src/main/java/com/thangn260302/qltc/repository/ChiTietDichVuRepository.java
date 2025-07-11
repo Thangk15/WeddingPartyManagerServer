@@ -13,10 +13,8 @@ import com.thangn260302.qltc.entity.ChiTietDichVuId;
 
 public interface ChiTietDichVuRepository extends JpaRepository<ChiTietDichVu, ChiTietDichVuId> {
     
-	 // Nếu bạn chỉ cần Entity
     List<ChiTietDichVu> findById_MaTiecCuoi(Long maTiecCuoi);
 
-//     Nếu dùng DTO thì vẫn phải sửa query theo hướng dẫn ở trên
     @Query("SELECT new com.thangn260302.qltc.DTO.DichVuSuDungDTO(" +
     	       "ctd.dichVu.maDichVu, " +
     	       "ctd.dichVu.tenDichVu, " +

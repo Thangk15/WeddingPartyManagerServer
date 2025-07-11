@@ -23,7 +23,6 @@ public class ChiTietDVThanhToan {
     @Column(name = "ghiChu")
     private String ghiChu;
 
-    // Getters and Setters
     public ChiTietDVThanhToanId getId() {
         return id;
     }

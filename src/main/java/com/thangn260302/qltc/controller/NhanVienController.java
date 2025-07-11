@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/nhanvien")
-@CrossOrigin(origins = "*") // Cho phép frontend truy cập
+@CrossOrigin(origins = "*")
 public class NhanVienController {
 
     private final NhanVienService nhanVienService;

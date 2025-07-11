@@ -15,7 +15,7 @@ import com.thangn260302.qltc.service.CongViecService;
 
 @RestController
 @RequestMapping("/api/congviec")
-@CrossOrigin(origins = "*") // Cho phép gọi từ Angular
+@CrossOrigin(origins = "*")
 public class CongViecController {
 
     @Autowired
